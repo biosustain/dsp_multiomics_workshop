@@ -1,0 +1,5 @@
+# outputs written by the notebooks when run locally
+multiomics/results/
+notebooks/multiomics/
+.ipynb_checkpoints/
+.DS_Store
