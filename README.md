@@ -112,20 +112,6 @@ patients before integrating — a habit worth keeping.
 └── data/                               the six input tables described above
 ```
 
-### Changes from the full-course notebooks
-
-- Data are read from this repository's `data/` folder.
-- **Multi-omics I**: added a compatibility cell before SNF. `snfpy` 0.2.2 passes
-  `force_all_finite` to scikit-learn, an argument removed in scikit-learn 1.8, which made the
-  SNF step fail on current Colab runtimes.
-- **Multi-omics II**: removed the unused `acore` install (slow to build); marked the
-  Cytoscape export as optional; replaced references to other course days with references to
-  the workshop slides; replaced the pointer to a non-existent "Exercise 1" with a concrete
-  instruction.
-
-Tested on 19 October 2026 with Python 3.11, scikit-learn 1.9.1, numpy 2.4, pandas 2.3,
-snfpy 0.2.2, mofapy2 0.7.5 and networkx 3.6.
-
 ### Running locally instead of Colab
 
 ```bash
