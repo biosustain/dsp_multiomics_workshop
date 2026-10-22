@@ -25,8 +25,7 @@ introductory slides; the full course has the notebooks for them.
 | 0:35–1:10 | **Hands-on I — Integration (SNF, MOFA)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biosustain/dsp_multiomics_workshop/blob/main/notebooks/01_multiomics_integration.ipynb) |
 | 1:10–1:20 | Introduction to Network Biology | [slides](slides/03_network_biology_lecture.pptx) |
 | 1:20–1:55 | **Hands-on II — Networks and pathways** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biosustain/dsp_multiomics_workshop/blob/main/notebooks/02_multiomics_networks.ipynb) |
-| | *Extended version with a classifier (CRKP vs CSKP) and a batch-confounding check* | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biosustain/dsp_multiomics_workshop/blob/main/notebooks/02_multiomics_networks_with_AUC.ipynb) |
-| 1:55–2:00 | Take-home messages | |
+| 1:55–2:00 | Wrap up | |
 
 > 💡 Open both notebooks at the start and choose **Runtime → Run all** once, so the package
 > installs are done before you need them. Each notebook stands on its own: it downloads the
