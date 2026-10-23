@@ -35,7 +35,7 @@ introductory slides; the full course has the notebooks for them.
 
 **Multi-omics I — Integration**
 1. Is the Mantel correlation between the two layers positive? Is the signal shared or complementary?
-2. Do the SNF clusters match the clinical groups — or a clinical laboratory value?
+2. Do the SNF clusters match the clinical groups — or the clinical variables?
 3. Which MOFA factor tracks group, and which tracks CRP, procalcitonin or creatinine?
 
 **Multi-omics II — Networks and pathways**
