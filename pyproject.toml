@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsp-multiomics-workshop"
+version = "26.10"
+description = "Hands-on multi-omics integration workshop notebooks"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+	"matplotlib",
+	"mofapy2",
+	"mofax",
+	"networkx",
+	"numpy",
+	"pandas",
+	"scikit-learn",
+	"scipy",
+	"seaborn",
+	"snfpy",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab"]
+vscode = ["ipykernel"]
+
+[tool.setuptools]
+packages = []

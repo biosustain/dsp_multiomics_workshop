@@ -113,10 +113,15 @@ patients before integrating — a habit worth keeping.
 
 ### Running locally instead of Colab
 
+Use Python 3.10–3.14. MOFA depends on `h5py`, which may need a native HDF5 toolchain
+to build from source on Python 3.15.
+
 ```bash
 git clone https://github.com/biosustain/dsp_multiomics_workshop.git
 cd dsp_multiomics_workshop
-pip install jupyter pandas numpy scipy scikit-learn matplotlib seaborn networkx snfpy mofapy2 mofax
+python3.14 -m venv .venv
+source .venv/bin/activate
+python -m pip install ".[notebooks]"
 jupyter lab
 ```
 
